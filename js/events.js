@@ -1,9 +1,4 @@
 //define functions here
-function frameIt() {
-  $("img").on("load", (e) => $(this).attr("class", "tasty"));
-}
-
-frameIt();
 
 $(document).ready(function(){
 
@@ -13,6 +8,12 @@ function getIt() {
 }
 
 getIt();
+
+function frameIt() {
+  $("img").on("load", (e) => $(this).attr("class", "tasty"));
+}
+
+frameIt();
 
 function pressIt() {
 
