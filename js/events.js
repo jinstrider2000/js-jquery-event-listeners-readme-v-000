@@ -4,7 +4,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $("img").on("click", (e) => $(this).attr("class", "tasty"));
+  $("img").on("click", (e) => $("img").attr("class", "tasty"));
   // $("img").attr("class", "tasty");
 }
 
