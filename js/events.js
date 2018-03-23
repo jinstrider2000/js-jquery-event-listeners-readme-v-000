@@ -10,7 +10,7 @@ function getIt() {
 getIt();
 
 function frameIt() {
-  $("img").on("load", (e) => $(this).attr("class", "tasty"));
+  $("img").load((e) => $(this).attr("class", "tasty"));
 }
 
 frameIt();
